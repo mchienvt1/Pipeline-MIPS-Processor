@@ -1,0 +1,97 @@
+$date
+	Sun May 18 18:31:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module pc_tb $end
+$var wire 32 ! pc_out [31:0] $end
+$var reg 1 " clk $end
+$var reg 32 # pc_in [31:0] $end
+$var reg 1 $ rst $end
+$var reg 1 % stall_pc $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 32 & pc_in [31:0] $end
+$var wire 1 $ rst $end
+$var wire 1 % stall_pc $end
+$var reg 32 ' pc_out [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b0 &
+0%
+1$
+b0 #
+0"
+bx !
+$end
+#3000
+0$
+#5000
+b0 !
+b0 '
+1"
+#10000
+0"
+#13000
+1$
+#15000
+1"
+#20000
+0"
+#23000
+b100 #
+b100 &
+#25000
+b100 !
+b100 '
+1"
+#30000
+0"
+#33000
+b1000 #
+b1000 &
+#35000
+b1000 !
+b1000 '
+1"
+#40000
+0"
+#43000
+1%
+b10000 #
+b10000 &
+#45000
+1"
+#50000
+0"
+#55000
+1"
+#60000
+0"
+#63000
+b10100 #
+b10100 &
+0%
+#65000
+b10100 !
+b10100 '
+1"
+#70000
+0"
+#75000
+1"
+#80000
+0"
+#85000
+1"
+#90000
+0"
+#93000
