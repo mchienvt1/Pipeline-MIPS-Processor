@@ -53,4 +53,4 @@ This comprehensive testing framework guarantees the reliability and correctness 
 
 ### Running the Simulation
 
-To run the simulation, use the following command in your Verilog simulation environment (e.g., ModelSim, Vivado):
+To run the simulation, use the following command in your Verilog simulation environment.
