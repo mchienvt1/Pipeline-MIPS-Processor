@@ -25,7 +25,7 @@ Designing the pipelined processor by subdividing the single-cycle processor into
 
 The diagram below provides a high-level view of the MIPS processor architecture:
 
-![Processor Interface]([https://github.com/manhtrannnnnn/Pipeline-Mips-Processor/blob/main/Picture/architecture.png](https://drive.google.com/file/d/1do32YDlmDlAc5z5RD91mSUsOCmJy5Rxo/view?usp=sharing))
+![Processor Interface]([Processor Interface]([https://drive.google.com/file/d/1do32YDlmDlAc5z5RD91mSUsOCmJy5Rxo/view?usp=sharing](https://github.com/mchienvt1/Pipeline-MIPS-Processor/blob/main/architecture.png)))
 
 ## Project Structure
 
