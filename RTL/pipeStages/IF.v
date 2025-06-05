@@ -22,6 +22,7 @@ module IFStage(
   adder adder(pc_out, `WIDTH'b100, pc_fetch);
 
   IMEM imem (pc_out, instr_fetch);
+ 
 
 
 endmodule
